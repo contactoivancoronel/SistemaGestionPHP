@@ -107,12 +107,12 @@ function enviarCorreoRecuperacion($email, $nuevaContrasena) {
     try {
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = '';
         $mail->SMTPAuth = true;
-        $mail->Username = 'flamencaalisados@gmail.com';
-        $mail->Password = 'GimenaFlamenca@2023';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port = ;
 
         $mail->setFrom('flamencaalisados@gmail.com', 'FLAMENCA ALISADOS');
         $mail->addAddress($email); // Correo del usuario
