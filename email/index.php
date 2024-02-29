@@ -23,12 +23,12 @@ $mail = new PHPMailer(true);
 try {
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = '';
     $mail->SMTPAuth = true;
-    $mail->Username = 'flamencaalisados@flamencaalisados.website';
-    $mail->Password = 'GimenaFlamenca@2023';
+    $mail->Username = '';
+    $mail->Password = '';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
+    $mail->Port = ;
 
     $mail->setFrom('flamencaalisados@flamencaalisados.website', 'FLAMENCA');
     $mail->addAddress('flamencaalisados@flamencaalisados.website', 'Receptor');
