@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.head {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding: 20px;
+}
+
+.form-altasesion {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-altasesion h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-form1 {
+  margin-bottom: 15px;
+}
+
+.inputs-form1 p {
+  margin: 0;
+}
+
+.inputs-form1 input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.botones-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.boton1 {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.boton1:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el fondo */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}

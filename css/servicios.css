@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/servicios/fondoservicios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caja {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: black; /* Añadido para cambiar el color del texto */
+}
+
+p {
+    color: black; /* Añadido para cambiar el color del texto */
+}
+
+.head {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    color: black;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}

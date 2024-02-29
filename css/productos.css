@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.head {
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 65px;
+    height: 65px;
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 30px;
+    color: blueviolet;
+    font-family: Poppins;
+    font-size: 50px;
+}
+
+.contenido_productos {
+    padding: 20px;
+   
+}
+
+.mostrador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item {
+
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    
+}
+
+.titulo-nutricion {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contenedor-foto {
+    text-align: center;
+}
+
+.contenedor-foto img {
+    max-width: 100%;
+    height: auto;
+}
+.contenedor-2{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+.contenedor-3{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.contenedor-4{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.contenedor-5{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+body{
+    background-image: url(../imagenes/servicios/fondoproductos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+caption{
+    font-family: Arial black, "arial black", Helvetica, sans-serif;
+    font-size: 20px;
+}
+.tabla_turnos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+thead th{
+    background-color: lightpink;
+
+}
+th,td{
+    padding: 8px;
+    
+}
+

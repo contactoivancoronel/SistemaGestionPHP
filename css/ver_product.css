@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+caption{
+    font-family: Arial rgb(146, 77, 163), "arial black", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.tabla_ver_product{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+thead th{
+    background-color: lightpink;
+
+}
+th,td{
+    padding: 25px;   
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabla_turnos_agregados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+caption{
+    font-family: Arial black, "arial black", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+thead th{
+    background-color: lightpink;
+
+}
+th,td{
+    padding: 8px;   
+}
+
+.tabla_baja_empleados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container_productos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container_servicios{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container_empleados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabla_mis_turnos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
